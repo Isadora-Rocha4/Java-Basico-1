@@ -1,0 +1,10 @@
+public static void main(String[] args) {
+// valor de comprimento em polegadas em cm
+		Scanner in = new Scanner(System.in);
+		System.out.println ("Digite o valor em Polegadas: ");
+		double P = in.nextDouble();
+		double C = P * 2.54;
+		System.out.printf("O valor da Polegada: " +P+ " será: " +C+ " em centímetros");
+	}
+
+}
