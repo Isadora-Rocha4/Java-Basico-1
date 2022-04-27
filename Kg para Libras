@@ -1,0 +1,10 @@
+//valor de massa em quilog
+	ramas e apresente-o convertido em libras
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		System.out.println("Digite o valor em Kg: ");
+		double Kg = in.nextDouble();
+		double L = Kg / 0.45;
+		System.out.printf("O valor de Kg: " +Kg+ " será: " +L+ " em Libras");
+	}
+
