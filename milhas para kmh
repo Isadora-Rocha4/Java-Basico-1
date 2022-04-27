@@ -1,0 +1,11 @@
+public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner in = new Scanner(System.in);
+		System.out.println ("A distancia em milhas: ");
+		double M = in.nextDouble();
+		double K = M * 1.61;
+		System.out.printf("A velocidade em milhas em: " +M+ " milhas será: " +K+ "Km/h");
+	}
+
+}
