@@ -1,0 +1,10 @@
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in = new Scanner(System.in);
+		System.out.println ("A velocidade em km/h: ");
+		float K = in.nextInt();
+		float M = (float) (K/3.6);
+		System.out.println("A velocidade de " +K+ "Km/h será: " +M+ "m/s");
+	}
+
+}
