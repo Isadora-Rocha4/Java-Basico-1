@@ -1,0 +1,8 @@
+//valor de massa em libras e apresente-o convertido em kg
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		System.out.println("Digite o valor em Libras: ");
+		double L = in.nextDouble();
+		double Kg = L*0.45;
+		System.out.printf("O valor em Libras: " +L+ " será: " +Kg+ " em Kg");
+	}
