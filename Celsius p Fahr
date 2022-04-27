@@ -1,0 +1,12 @@
+public class questao6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in = new Scanner(System.in);
+		System.out.println ("Digite um Valor em C°: ");
+		int C = in.nextInt();
+		double F = C *(9.0/5.0) + 32.0;
+		System.out.println("O valor em Fahrenheit de %.2f C° será %.2f F°");
+	}
+
+}
