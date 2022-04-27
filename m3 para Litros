@@ -1,0 +1,12 @@
+public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		m3 em L
+		Scanner in = new Scanner(System.in);
+		System.out.println ("Digite um valor em m3: ");
+		double M = in.nextDouble();
+		double L = 1000 * M;
+		System.out.printf("O valor em m3: " +M+ " será: " +L+ " em litros");
+	
+	}
+
+}
