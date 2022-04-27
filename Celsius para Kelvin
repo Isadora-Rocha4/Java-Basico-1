@@ -1,0 +1,11 @@
+public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// temperatura em graus Celcius para Kelvin
+				Scanner in = new Scanner(System.in);
+				System.out.println ("A temperatura em C°: ");
+				float C = in.nextInt();
+				float K = (float) (C + 273.15);
+				System.out.println("A temperatura de " +K+ "C° será:" +C+ "K°");
+	}
+
+}
