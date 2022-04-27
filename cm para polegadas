@@ -1,0 +1,10 @@
+public static void main(String[] args) {
+	//cm para polegadas
+		Scanner in = new Scanner(System.in);
+		System.out.println ("Digite o valor em centímetros: ");
+		double C = in.nextDouble();
+		double P = C / 2.54;
+		System.out.printf("O valor da em centímetros: " +C+ " será: " +P+ " em polegadas");
+	}
+
+}
