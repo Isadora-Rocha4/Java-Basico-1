@@ -1,0 +1,12 @@
+public class questao5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in = new Scanner(System.in);
+		System.out.println ("Digite um número real: ");
+		int x = in.nextInt();
+		int r = x * 1/5;
+		System.out.println("A quinta parte do número " + x + " é: " + r);
+
+	}
+}
