@@ -1,0 +1,11 @@
+public class questao4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num1, quadrado;
+		Scanner in = new Scanner(System.in);
+		System.out.println ("Digite um número real: ");
+		int numero = in.nextInt();
+		System.out.println("O resultado do quadrado " + numero + " é: " + Math.pow(numero, 2));
+	}
+}
