@@ -1,0 +1,9 @@
+public static void main(String[] args) {
+//		L em m3
+		Scanner in = new Scanner(System.in);
+		System.out.println ("Digite um valor em L: ");
+		double L = in.nextDouble();
+		double M = 1000 / L;
+		System.out.printf("O valor em L: " +L+ " será: " +M+ " em m3");
+
+	}
