@@ -1,0 +1,10 @@
+public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in = new Scanner(System.in);
+		System.out.println ("Digite o valor do ângulo: ");
+		double G = in.nextDouble();
+		double R = G * 3.14/180;
+		System.out.printf("O angulo: " +G+ " graus será: " +R+ " radianos ");
+	}
+
+}
