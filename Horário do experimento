@@ -1,0 +1,27 @@
+public class questao49 {
+//
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+
+        int hora,min,seg,hf,mf,sf,horas,minutos,segundos,duracaoExp,resto;
+
+        System.out.println("Digite o horário do início do experimento em horas, minutos e segundos, respectivamente:");
+
+        hora = scan.nextInt();
+        min = scan.nextInt();
+        seg = scan.nextInt();
+
+        System.out.println("Digite o tempo do duração do experimento, em segundos:");
+		
+		duracaoExp = scan.nextInt();
+        horas = duracaoExp / 3600;
+        resto = duracaoExp % 3600;
+        minutos = resto / 60;
+        segundos = resto % 60;
+        hf = hora+horas;
+        mf = min+minutos;
+        sf = seg+segundos;
+
+        System.out.println("A experiência terminará às "+hf+" horas, "+mf+" minutos e "+sf+" segundos.");
+    }
+}
