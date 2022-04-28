@@ -1,0 +1,13 @@
+public class questao40 {
+//um encanador a R$ 30,00 por dia; o numero de dias trabalhados pelo encanador; descontados 8%. 
+	public static void main(String[] args){
+		Scanner in = new Scanner(System.in);
+		float valorF = 30, desconto, dias = 0;
+		System.out.println("Quantos dias trabalhados? ");
+		dias = in.nextInt();
+		valorF = dias*30;
+		desconto = valorF*8/100;
+		valorF = valorF - desconto; 
+		System.out.printf("O valor a receber será: R$%.2f\nDesconto R$%.2f\n", valorF, desconto);
+	}
+}
