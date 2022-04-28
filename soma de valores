@@ -1,0 +1,13 @@
+// leitura de tres valores e apresente como resultado a soma dos quadrados dos
+//tres valores lidos. 
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		int num1, num2, num3, soma;
+		System.out.println("Digite três valores: ");
+		num1 = in.nextInt();
+		num2 = in.nextInt();
+		num3 = in.nextInt();
+		soma = num1+num2+num3;
+		System.out.printf("A soma dos três valores é: " +soma);
+		}
+	}	
