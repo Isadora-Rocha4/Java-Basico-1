@@ -1,0 +1,14 @@
+public class questao48 {
+//valor em segundos = imprimir em horas, minutos e segundos
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int num, hora, min, seg, resto;
+		System.out.println("Digite um valor em segundos: ");
+		num = scan.nextInt();
+		hora = num/3600; //seg pra hora
+		resto = num%3600;
+		min = resto/60;
+		seg = resto%60;
+		System.out.println("O valor inserido contém: "+hora+" horas, "+min+" minutos e "+seg+" segundos.");
+        }
+ }
