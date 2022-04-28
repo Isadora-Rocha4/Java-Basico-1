@@ -1,0 +1,18 @@
+public class questao53 {
+// programa para ler as dimensoes de um terreno
+// comp. c; largura l, preço metro de tela p;
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		double cm, larg, preço, pml, custoTotal;
+		System.out.println("Digite o comprimento e a largura do terreto em metros, respectivamente: ");
+		cm = in.nextDouble();
+		larg = in.nextDouble();
+
+		System.out.println("Digite o valor do preço do metro da tela (reais): ");
+		preço = in.nextDouble();
+		pml = (cm+1)*2;
+		custoTotal = preço*pml;
+
+		System.out.println("O valor total para cercar o terreno é de: "+custoTotal+" reais");
+	}
+}
