@@ -1,0 +1,14 @@
+public class questao46 {
+// inverta os algarismos
+	public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Digite 3 algarismos: ");
+        int num = scan.nextInt();
+        System.out.print("Os algarismos digitados foram: "+num);
+        System.out.println("Inverso dos algarismos: "+inversao(num,0));
+    }
+    private static int inversao(int n, int total) {
+    	if (n==0)
+    		return total;
+    	else return inversao(n/10,total*10+n%10);
+    }
