@@ -1,0 +1,19 @@
+public class questao43 {
+//valorT desc. 10%, valor parcela 3x sem juros, comissão do vendendor = a vista 5% sobre desconto, comissão vendendor 5% sobre o valorT
+	public static void main(String[] args){
+		Scanner in = new Scanner(System.in);
+		double valorTotal, valorParc, valorDesc, comiAvista, comiAprazo; 
+		System.out.println("Digite o valor total da venda: ");
+		valorTotal = in.nextDouble();
+		valorDesc = valorTotal*0.9; //1(100%) - 0.1(10%) = 1-0.1=0.9;
+		valorParc = valorTotal/3;
+		comiAvista = valorDesc*0.95;
+		comiAprazo = valorTotal*0.95;
+		System.out.println("O valor total das vendas: ");
+		System.out.println("Valor com 10% de desconto: "+valorDesc+" reais.");
+		System.out.println("Valor parcelado em 3x: "+valorParc+" reais.");
+		System.out.println("Comissão do vendedor, à vista: "+comiAvista+" reais.");
+		System.out.println("Comissão do vendedor, à prazo: "+comiAprazo+" reais.");
+
+    }
+}
