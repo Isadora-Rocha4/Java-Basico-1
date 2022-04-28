@@ -1,0 +1,11 @@
+public class questao42 {
+//o salario-base com +5%, imposto de 7% sobre o salário-base
+	public static void main(String[] args){
+		Scanner in = new Scanner(System.in);
+		double salarioBase, salarLiq;
+		System.out.println("Digite o valor do salário: ");
+		salarioBase = in.nextDouble();
+		salarLiq = salarioBase*0.98; //(+0.5)-(0.7)=(-0.2); 1- 0.2 = 0.98;
+		System.out.println("O salário a receber será de " +salarLiq+ " reais");
+    }
+}
