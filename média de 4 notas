@@ -1,0 +1,13 @@
+//Leia quatro notas, calcule a media aritmética e imprima o resultado
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		int N1, N2, N3, N4, media; 
+		System.out.println("Digite quatro notas: ");
+		N1 = in.nextInt();
+		N2 = in.nextInt();
+		N3 = in.nextInt();
+		N4 = in.nextInt();
+		media = N1+N2+N3+N4/4;
+		System.out.printf("A média das quatro notas é: " +media);
+		}
+	}
