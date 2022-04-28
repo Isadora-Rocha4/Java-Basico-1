@@ -1,0 +1,10 @@
+public class questao22 {
+//valor de JARDAS convertido em METROS
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		System.out.println("Digite o valor em Jardas: ");
+		double J = in.nextDouble();
+		double M = 0.91*J;
+		System.out.printf("O valor de Jardas: " +J+ " será: " +M+ " em metros");
+	}
+}
