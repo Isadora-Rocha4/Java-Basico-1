@@ -1,0 +1,13 @@
+public class questao32 {
+//um numero inteiro e imprima a soma do sucessor de seu triplo com o antecessor de seu dobro
+	public static void main(String[] args){
+		Scanner in = new Scanner(System.in);
+		int num, ant2, suc3; 
+		System.out.println("Digite um número inteiro: ");
+		num = in.nextInt();
+		ant2 = (2*num)-1;
+		suc3 = (3*num)+1;
+		System.out.println("A soma do sucessor do triplo número digitado com o antecessor de seu dobro é: ");
+		System.out.println(suc3+ant2);
+		}
+}
