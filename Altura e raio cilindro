@@ -1,0 +1,12 @@
+public class questao36 {
+//altura e o raio do cilindro para o volume do cilindro
+	public static void main(String[] args){
+		Scanner in = new Scanner(System.in);
+		int vol, R, H; 
+		System.out.println("Digite a altura e o raio do cilindro: ");
+		H = in.nextInt();
+		R = in.nextInt();
+		vol = (int) (3.141592*(Math.pow(R, 2))*H);
+		System.out.print("O volume do cilindro é: " +vol);
+	}
+}
