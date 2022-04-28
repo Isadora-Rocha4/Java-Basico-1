@@ -1,0 +1,11 @@
+public class questao30 {
+//valor em real em dolar. Em seguida, imprima o valor correspondente em dolares
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		double R, D; 
+		System.out.println("Digite o valor em real brasileiro: ");
+		R = in.nextDouble();
+		D = R/4.66;
+		System.out.printf("O valor de real em doláres é " +D);
+		}
+	}
