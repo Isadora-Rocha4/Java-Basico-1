@@ -1,0 +1,12 @@
+public class questao50 {
+//ano de nascimento de acordo com a idade
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		int idade, anoNasc;
+		System.out.println("Digite seu ano de nascimento: ");
+		anoNasc = in.nextInt();
+		idade = 2022-anoNasc;
+		System.out.println("Sua idade é de: "+idade+ " anos");
+		
+    }
+}
