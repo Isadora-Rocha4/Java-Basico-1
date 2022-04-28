@@ -1,0 +1,10 @@
+public class questao34 {
+//do raio de um cırculo PARA area do cırculo
+	public static void main(String[] args){
+		Scanner in = new Scanner(System.in);
+		System.out.println("Digite o valor do raio: ");
+		double R = in.nextDouble();
+		double A = 3.141592 * R; 
+		System.out.println("O resultado do raio " +R+ " e sua área é: " +Math.pow(A, 2));
+		}
+}
