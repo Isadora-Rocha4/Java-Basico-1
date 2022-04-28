@@ -1,0 +1,9 @@
+//valor de METROS convertido em JARDAS
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		System.out.println("Digite o valor em metros: ");
+		double M = in.nextDouble();
+		double J = M/0.91;
+		System.out.printf("O valor de metros: " +M+ " será: " +J+ " em jardas");
+	}
+}
