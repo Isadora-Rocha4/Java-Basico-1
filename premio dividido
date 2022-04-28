@@ -1,0 +1,15 @@
+public class questao39 {
+//valor de 780.000,00 divido para 3 ganhores,1-46%, 2-32%, 3-restante.
+	public static void main(String[] args){
+		double vTotal, G1, G2, G3;
+		vTotal = 780000.0;
+		G1 = 0.46*(vTotal);
+		G2 = 0.32*(vTotal);
+		//o terceiro ganhador receberá 22% do total (0.22) |(100-46-32=22)|
+		G3 = 0.22*(vTotal);
+		System.out.println("Os valores recebidos para cada ganhador, respectivamente, será: ");
+		System.out.println("1º ganhador: R$: "+G1);
+		System.out.println("2º ganhador: R$: "+G2);
+		System.out.println("3º ganhador: R$: "+G3);
+	}
+}
