@@ -1,0 +1,11 @@
+public class questao37 {
+//valor de um produto e valor com desconto de 12%
+	public static void main(String[] args){
+		Scanner in = new Scanner(System.in);
+		double valorP,valorD;
+		System.out.println ("Digite o valor do produto: ");
+		valorP = in.nextDouble();
+		valorD = valorP-(valorP*0.12);
+		System.out.println("O valor do produto com o desconto de 12% é de: "+valorD);
+	}
+}
