@@ -1,0 +1,18 @@
+public class questao47 {
+// 4 algarismos - 1 digito por linha 
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int num, milhar, cent, dez, unid;
+		System.out.print("Digite um número inteiro entre 1000 e 9999: ");
+		num = scan.nextInt();
+		milhar = num/1000 % 10;
+		cent = num /100 % 10;
+		dez = num /10 % 10;
+		unid = num % 10;
+		System.out.println("De acordo com o número inserido: ");
+        System.out.println("Seu dígito de milhar é: "+milhar);
+        System.out.println("Seu dígito de centena é: "+cent);
+        System.out.println("Seu dígito de dezena é: "+dez);
+        System.out.println("Seu dígito de unidade é: "+unid);
+    }
+}
