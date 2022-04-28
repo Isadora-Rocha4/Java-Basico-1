@@ -1,0 +1,13 @@
+public class questao44 {
+// a altura do degrau de uma escada e a altura que o usuario deseja alcançar subindo a escada
+	public static void main(String[] args){
+		Scanner in = new Scanner(System.in);
+		double hEscada, hDegrau, quantDegrau; 
+		System.out.println("Digite a altura do degrau da escada em centímetros: ");
+		hDegrau = in.nextDouble();
+		System.out.println("Digite a altura da escada em metros: ");
+		hEscada = in.nextDouble();
+		quantDegrau = (hEscada*100.00)/hDegrau; // 1m = 100cm
+		System.out.println("A quantidade de degraus da escada é: "+quantDegrau+ " degraus");
+    }
+}	
