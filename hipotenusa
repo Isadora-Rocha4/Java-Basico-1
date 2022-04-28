@@ -1,0 +1,12 @@
+public class questao35 {
+//
+	public static void main(String[] args){
+		Scanner in = new Scanner(System.in);
+		int catA, catB, hipC; 
+		System.out.println("Digite dois catetos inteiros: ");
+		catA = in.nextInt();
+		catB = in.nextInt();
+		hipC = (int) Math.sqrt(Math.pow(catA,2)+Math.pow(catB,2));
+		System.out.println("O resultado dos catetos " +catA+ " e "+catB+ " é: " +hipC);
+		}
+}
