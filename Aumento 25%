@@ -1,0 +1,11 @@
+public class questao38 {
+//valor do salário com o aumento de 25%
+	public static void main(String[] args){
+		Scanner in = new Scanner(System.in);
+		double valorS,valorA;
+		System.out.println ("Digite o valor do salário: ");
+		valorS = in.nextDouble();
+		valorA = valorS+(valorS*0.25);
+		System.out.println("O valor do salário com o aumento de 25% é de: "+valorA);
+	}
+}
