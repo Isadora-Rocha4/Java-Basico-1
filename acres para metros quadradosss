@@ -1,0 +1,10 @@
+public class questao25 {
+//valor de ACRES em METROS²
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		System.out.println("Digite o valor em acres: ");
+		double A = in.nextDouble();
+		double M = A*4048.58; 
+		System.out.printf("O valor de ACRES: " +A+ " será: " +M+ " em METROS QUADRADOS");
+	}
+}
