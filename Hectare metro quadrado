@@ -1,0 +1,10 @@
+public class questao27 {
+//valor de hectares em METROS²
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		System.out.println("Digite o valor em hectares: ");
+		double H = in.nextDouble();
+		double M = H*10000; 
+		System.out.printf("O valor de hectares: " +H+ " será: " +M+ " em metros quadrados");
+	}
+}
