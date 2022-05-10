@@ -1,0 +1,27 @@
+USO DO SWITCH - CHAR
+package seleçãomultipla;
+import java.util.Scanner;
+public class switchaula {
+
+	public static void main(String[] args) {
+		
+		Scanner in = new Scanner(System.in);
+		char resposta = 's';
+		System.out.println("Digite: ");
+		resposta = in.next().charAt(0); //o numero do charAt é a posição da letra na palavra. 
+		//ex: charAt(1) "não"('n') = aNta; charAt(3) "exemplo"('p') = esPerança. 
+		
+		switch (resposta) {
+		case 's':
+			System.out.println("Sim");
+			break;
+		case 'n': 
+			System.out.println("Não");
+			break;
+		default:
+			System.out.println("Erro!");
+		}
+
+	}
+
+}
